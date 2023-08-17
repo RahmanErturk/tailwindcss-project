@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body class="min-h-screen bg-slate-50 dark:bg-black dark:text-white">
-    <header class="bg-sky-200 text-sky-900 sticky top-0 z-10">
-        <section class="max-w-4xl mx-auto p-4 justify-between items-center">
+    <header class="bg-indigo-300 text-indigo-900 sticky top-0 z-10">
+        <section class="max-w-4xl mx-auto p-4 flex justify-between items-center">
             <h1 class="text-3xl font-medium">
                 <a href="#hero">🐒 Lovely Animals</a>
             </h1>
@@ -16,8 +16,151 @@
                 <button id="hmbrgr-btn" class="text-3xl sm:hidden focus:outline-none">
                     &#9776;
                 </button>
+                <nav class="hidden sm:block space-x-8 text-xl" aria-label="main">
+                    <a href="#birds" class="hover:opacity-90">Birds</a>
+                    <a href="#terrestrials" class="hover:opacity-90">Terrestrial Animals</a>
+                    <a href="#fishes" class="hover:opacity-90">Fishes</a>
+                </nav>
             </div>
         </section>
     </header>
+    <main class="max-w-4xl mx-auto p-6">
+        <section id="hero" class="flex flex-col-reverse justify-center sm:flex-row p-6 items-center gap-8 mb-12 scroll-mt-24">
+            <article class="sm:w-1/2">
+                <h2 class="max-w-md text-4xl font-bold text-center sm:text-5xl sm:text-left text-slate-900 dark:text-white">
+                    Animals are so cute. <span class="text-indigo-700 dark:text-indigo-300">We love animals...</span>
+                </h2>
+                <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Unde eveniet maxime vero rem minus possimus.
+                </p>
+                <p class="max-w-md text-2xl mt-4 text-center sm:text-left text-slate-700 dark:text-slate-400">
+                    Lorem ipsum dolor sit amet.
+                </p>
+            </article>
+            <img src="./img/panda-659186_640.png" alt="panda" class="w-1/2">
+        </section>
+
+        <hr class="w-1/2 mx-auto bg-black dark:bg-white">
+
+        <section id="birds" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Birds
+            </h2>
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/bird-1232416_640.png" alt="bird-1" class="h-32 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 1</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, vero?</p>
+                </li>
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/owl-2569202_640.png" alt="bird-2" class="h-32 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 2</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, reprehenderit.</p>
+                </li>
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/gray-crowned-1481602_640.png" alt="bird-3" class="h-32 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 3</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tenetur.</p>
+                </li>
+            </ul>
+        </section>
+
+        <hr class="w-1/2 mx-auto bg-black dark:bg-white">
+        
+        <section id="terrestrials" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Terrestrials Animals
+            </h2>
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/panther-2038656_640.png" alt="bird-1" class="h-32 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 1</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, vero?</p>
+                </li>
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/horse-2637131_640.png" alt="bird-2" class="h-32 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 2</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, reprehenderit.</p>
+                </li>
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/gorilla-1596803_640.png" alt="bird-3" class="h-32 mb-6">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 3</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tenetur.</p>
+                </li>
+            </ul>
+        </section>
+
+        <hr class="w-1/2 mx-auto bg-black dark:bg-white">
+
+        <section id="fishes" class="p-6 my-12 scroll-mt-20">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Fishes
+            </h2>
+            <ul class="list-none mx-auto my-12 flex flex-col sm:flex-row items-center gap-8">
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/fish-3322230_640.jpg" alt="bird-1" class="h-32 w-5/6 mb-6 rounded-2xl">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 1</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque, vero?</p>
+                </li>
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/fishes-7314666_640.jpg" alt="bird-2" class="h-32 w-5/6 mb-6 rounded-2xl">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 2</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur, reprehenderit.</p>
+                </li>
+                <li class="w-2/3 sm:w-5/6 flex flex-col items-center border border-solid border-slate-900 dark:border-gray-100 bg-white dark:bg-black py-6 px-2 rounded-3xl shadow-xl">
+                    <img src="./img/shark-674867_640.jpg" alt="bird-3" class="h-32 w-5/6 mb-6 rounded-2xl">
+                    <h3 class="text-3xl text-center text-slate-900 dark:text-white">Bird 3</h3>
+                    <small class="text-center my-2 text-slate-700 dark:text-slate-400">Something</small>
+                    <p class="text-1xl text-center text-slate-700 dark:text-slate-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, tenetur.</p>
+                </li>
+            </ul>
+            
+        </section>
+        <section id="fishes" class="p-6 my-12">
+            <h2 class="text-4xl font-bold text-center sm:text-5xl mb-6 text-slate-900 dark:text-white">
+                Here is something else
+            </h2>
+            <figure class="my-12">
+                <blockquote class="bg-indigo-500 dark:bg-black pl-14 pr-8 py-12 rounded-3xl relative">
+                    <p class="text-2xl sm:text-3xl text-left mt-2 text-white dark:text-slate-400 before:content-['\201C'] before:font-serif before:absolute before:top-0 before:left-0 before:text-9xl before:text-white before:opacity-25 before:transform before:translate-x-2 before:translate-y-2 after:content-['\201D'] after:font-serif after:absolute after:-bottom-20 after:right-0 after:text-9xl after:text-white after:opacity-25 after:transform after:-translate-x-2 after:-translate-y-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Error vero natus officiis labore fugit corporis possimus repudiandae id est. Iure.</p>
+                </blockquote>
+                <figcaption class="italic text-xl sm:text-2xl text-right mt-2 text-slate-500 dark:text-slate-400">
+                    &#8212;Rahman Ertuerk
+                </figcaption>
+            </figure>
+        </section>
+    </main>
+    <footer id="footer" class="bg-indigo-300 text-indigo-900">
+        <section class="max-w-4xl mx-auto p-4 flex flex-col sm:flex-row
+        sm: justify-between">
+            <address>
+                <h2 class="font-bold">Lovely Animals GmbH</h2>
+                Animals Street 567<br>
+                Somewhere 12345, Germany<br>
+                <span class="font-bold">Email: </span><a href="mailto:info@lovelyanimals.
+                com" >info@lovelyanimals.com</a><br>
+                <span class="font-bold">Phone: </span><a href="tel:+49555555555">(555) 555-5555</a>
+            </address>
+            <nav class="hidden md:flex flex-col gap-2 font-bold" aria-label="footer">
+                <a href="#birds" class="hover:opacity-90">Birds</a>
+                <a href="#terrestrials" class="hover:opacity-90">Terrestrial Animals</a>
+                <a href="#fishes" class="hover:opacity-90">Fishes</a>
+            </nav>
+            <div class="flex flex-col sm:gap-2">
+                <p class="text-right">Copyright &copy; <span
+                id="year">2022</span></p>
+                <p class="text-right">All Rights Reserved</p>
+            </div>      
+        </section>
+    </footer>
+        
 </body>
 </html>
